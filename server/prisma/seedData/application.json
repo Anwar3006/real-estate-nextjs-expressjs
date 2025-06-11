@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "applicationDate": "2025-05-20T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 1,
+    "tenantClerkId": "user_9z8y7x6w5v4u3t2s1r0q9p8o7n6m5l4k3j2i1h0",
+    "name": "Alice Brown",
+    "email": "alice.brown@example.com",
+    "phoneNumber": "+1 (555) 111-2222",
+    "message": "I am interested in this property.",
+    "leaseId": 1
+  },
+  {
+    "id": 2,
+    "applicationDate": "2025-05-25T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 2,
+    "tenantClerkId": "user_1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0",
+    "name": "Bob Green",
+    "email": "bob.green@example.com",
+    "phoneNumber": "+1 (555) 333-4444",
+    "message": "Looking forward to viewing this apartment."
+  },
+  {
+    "id": 3,
+    "applicationDate": "2025-06-01T00:00:00Z",
+    "status": "Denied",
+    "propertyId": 3,
+    "tenantClerkId": "user_2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0",
+    "name": "Carol White",
+    "email": "carol.white@example.com",
+    "phoneNumber": "+1 (555) 555-6666",
+    "message": "Excited about the possibility of renting this house."
+  },
+  {
+    "id": 4,
+    "applicationDate": "2025-06-10T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 4,
+    "tenantClerkId": "user_0q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6j7k8l9",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phoneNumber": "+1 (555) 777-8888",
+    "message": "This property looks perfect for my needs.",
+    "leaseId": 4
+  },
+  {
+    "id": 5,
+    "applicationDate": "2025-06-15T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 5,
+    "tenantClerkId": "user_5t6y7u8i9o0p1a2s3d4f5g6h7j8k9l0z1x2c3",
+    "name": "Emma Taylor",
+    "email": "emma.taylor@example.com",
+    "phoneNumber": "+1 (555) 999-0000",
+    "message": "I'm very interested in this apartment."
+  },
+  {
+    "id": 6,
+    "applicationDate": "2025-06-20T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 6,
+    "tenantClerkId": "user_4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7y6t5",
+    "name": "Frank Wilson",
+    "email": "frank.wilson@example.com",
+    "phoneNumber": "+1 (555) 222-3333",
+    "message": "This property seems to fit all my requirements.",
+    "leaseId": 6
+  },
+  {
+    "id": 7,
+    "applicationDate": "2025-06-25T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 3,
+    "tenantClerkId": "user_3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7y",
+    "name": "Grace Miller",
+    "email": "grace.miller@example.com",
+    "phoneNumber": "+1 (555) 444-5555",
+    "message": "I'm interested in this loft and would like to schedule a viewing."
+  },
+  {
+    "id": 8,
+    "applicationDate": "2025-07-01T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 5,
+    "tenantClerkId": "user_2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7",
+    "name": "Henry Wilson",
+    "email": "henry.wilson@example.com",
+    "phoneNumber": "+1 (555) 444-5555",
+    "message": "I'm very interested in this luxury penthouse.",
+    "leaseId": 8
+  },
+  {
+    "id": 9,
+    "applicationDate": "2025-07-05T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 7,
+    "tenantClerkId": "user_1z2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0",
+    "name": "Isabella Garcia",
+    "email": "isabella.garcia@example.com",
+    "phoneNumber": "+1 (555) 666-7777",
+    "message": "The historic brownstone looks perfect for my family."
+  },
+  {
+    "id": 10,
+    "applicationDate": "2025-07-10T00:00:00Z",
+    "status": "Denied",
+    "propertyId": 2,
+    "tenantClerkId": "user_0a1z2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9",
+    "name": "Jack Thompson",
+    "email": "jack.thompson@example.com",
+    "phoneNumber": "+1 (555) 888-9999",
+    "message": "I'd love to rent this beach house for the summer."
+  },
+  {
+    "id": 11,
+    "applicationDate": "2025-07-15T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 8,
+    "tenantClerkId": "user_9p8o7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z",
+    "name": "Karen Martinez",
+    "email": "karen.martinez@example.com",
+    "phoneNumber": "+1 (555) 123-4567",
+    "message": "I'm interested in this micro-apartment for its central location."
+  },
+  {
+    "id": 12,
+    "applicationDate": "2025-07-20T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 9,
+    "tenantClerkId": "user_8o7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9",
+    "name": "Liam Johnson",
+    "email": "liam.johnson@example.com",
+    "phoneNumber": "+1 (555) 987-6543",
+    "message": "The mountain view cabin looks perfect for a weekend getaway.",
+    "leaseId": 12
+  },
+  {
+    "id": 13,
+    "applicationDate": "2025-07-25T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 10,
+    "tenantClerkId": "user_7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c",
+    "name": "Mia Rodriguez",
+    "email": "mia.rodriguez@example.com",
+    "phoneNumber": "+1 (555) 246-8135",
+    "message": "I'm curious about the eco-friendly features of this tiny house."
+  },
+  {
+    "id": 14,
+    "applicationDate": "2025-07-30T00:00:00Z",
+    "status": "Approved",
+    "propertyId": 1,
+    "tenantClerkId": "user_6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c7v",
+    "name": "Noah Kim",
+    "email": "noah.kim@example.com",
+    "phoneNumber": "+1 (555) 369-2580",
+    "message": "The downtown apartment seems ideal for my work location.",
+    "leaseId": 14
+  },
+  {
+    "id": 15,
+    "applicationDate": "2025-08-05T00:00:00Z",
+    "status": "Pending",
+    "propertyId": 4,
+    "tenantClerkId": "user_5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c7v6b",
+    "name": "Olivia Chen",
+    "email": "olivia.chen@example.com",
+    "phoneNumber": "+1 (555) 159-7531",
+    "message": "I'm looking for a spacious family home like this one."
+  }
+]

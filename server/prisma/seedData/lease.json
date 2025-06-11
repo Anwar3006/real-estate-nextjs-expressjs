@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "startDate": "2023-07-01T00:00:00Z",
+    "endDate": "2024-06-30T00:00:00Z",
+    "rent": 1500.0,
+    "deposit": 1500.0,
+    "propertyId": 1,
+    "tenantClerkId": "user_9z8y7x6w5v4u3t2s1r0q9p8o7n6m5l4k3j2i1h0"
+  },
+  {
+    "id": 2,
+    "startDate": "2023-08-01T00:00:00Z",
+    "endDate": "2024-07-31T00:00:00Z",
+    "rent": 1800.0,
+    "deposit": 1800.0,
+    "propertyId": 2,
+    "tenantClerkId": "user_1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0"
+  },
+  {
+    "id": 3,
+    "startDate": "2023-09-01T00:00:00Z",
+    "endDate": "2024-08-31T00:00:00Z",
+    "rent": 2200.0,
+    "deposit": 2200.0,
+    "propertyId": 3,
+    "tenantClerkId": "user_2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0"
+  },
+  {
+    "id": 4,
+    "startDate": "2023-07-15T00:00:00Z",
+    "endDate": "2024-07-14T00:00:00Z",
+    "rent": 1700.0,
+    "deposit": 1700.0,
+    "propertyId": 4,
+    "tenantClerkId": "user_0q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6j7k8l9"
+  },
+  {
+    "id": 5,
+    "startDate": "2023-08-15T00:00:00Z",
+    "endDate": "2024-08-14T00:00:00Z",
+    "rent": 2000.0,
+    "deposit": 2000.0,
+    "propertyId": 5,
+    "tenantClerkId": "user_5t6y7u8i9o0p1a2s3d4f5g6h7j8k9l0z1x2c3"
+  },
+  {
+    "id": 6,
+    "startDate": "2023-09-15T00:00:00Z",
+    "endDate": "2024-09-14T00:00:00Z",
+    "rent": 2400.0,
+    "deposit": 2400.0,
+    "propertyId": 6,
+    "tenantClerkId": "user_4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7y6t5"
+  },
+  {
+    "id": 7,
+    "startDate": "2023-10-01T00:00:00Z",
+    "endDate": "2024-09-30T00:00:00Z",
+    "rent": 2200.0,
+    "deposit": 2200.0,
+    "propertyId": 3,
+    "tenantClerkId": "user_3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7y"
+  },
+  {
+    "id": 8,
+    "startDate": "2023-08-01T00:00:00Z",
+    "endDate": "2024-07-31T00:00:00Z",
+    "rent": 5000.0,
+    "deposit": 5000.0,
+    "propertyId": 5,
+    "tenantClerkId": "user_2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0u7"
+  },
+  {
+    "id": 9,
+    "startDate": "2023-11-01T00:00:00Z",
+    "endDate": "2024-10-31T00:00:00Z",
+    "rent": 3000.0,
+    "deposit": 3000.0,
+    "propertyId": 7,
+    "tenantClerkId": "user_1z2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9i0"
+  },
+  {
+    "id": 10,
+    "startDate": "2023-08-15T00:00:00Z",
+    "endDate": "2024-02-14T00:00:00Z",
+    "rent": 2000.0,
+    "deposit": 2000.0,
+    "propertyId": 2,
+    "tenantClerkId": "user_0a1z2x3c4v5b6n7m8k9l0j1h2g3f4d5s6a7p8o9"
+  },
+  {
+    "id": 11,
+    "startDate": "2023-09-01T00:00:00Z",
+    "endDate": "2024-08-31T00:00:00Z",
+    "rent": 1000.0,
+    "deposit": 1000.0,
+    "propertyId": 8,
+    "tenantClerkId": "user_9p8o7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z"
+  },
+  {
+    "id": 12,
+    "startDate": "2023-10-01T00:00:00Z",
+    "endDate": "2023-12-31T00:00:00Z",
+    "rent": 1800.0,
+    "deposit": 1800.0,
+    "propertyId": 9,
+    "tenantClerkId": "user_8o7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9"
+  },
+  {
+    "id": 13,
+    "startDate": "2023-09-15T00:00:00Z",
+    "endDate": "2024-03-14T00:00:00Z",
+    "rent": 900.0,
+    "deposit": 900.0,
+    "propertyId": 10,
+    "tenantClerkId": "user_7i6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c"
+  },
+  {
+    "id": 14,
+    "startDate": "2023-09-01T00:00:00Z",
+    "endDate": "2024-08-31T00:00:00Z",
+    "rent": 1500.0,
+    "deposit": 1500.0,
+    "propertyId": 1,
+    "tenantClerkId": "user_6u5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c7v"
+  },
+  {
+    "id": 15,
+    "startDate": "2023-10-01T00:00:00Z",
+    "endDate": "2024-09-30T00:00:00Z",
+    "rent": 2500.0,
+    "deposit": 2500.0,
+    "propertyId": 4,
+    "tenantClerkId": "user_5y4t3r2e1w0q9a8s7d6f5g4h3j2k1l0z9x8c7v6b"
+  }
+]
