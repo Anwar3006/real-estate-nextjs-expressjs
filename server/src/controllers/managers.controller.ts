@@ -1,6 +1,7 @@
 import { HttpStatusCode } from "axios";
 import { Request, Response } from "express";
 import { prismaDb } from "../../prisma/prismaClient";
+import { wktToGeoJSON } from "@terraformer/wkt";
 
 export const managerCreation = async (req: Request, res: Response) => {
   try {
@@ -110,4 +111,44 @@ export const updateManager = async (req: Request, res: Response) => {
     return;
   }
 };
-// export const getManager
+
+export const getManagerProperties = async (req: Request, res: Response) => {
+  try {
+    const { clerkId } = req.params;
+
+    const properties = await prismaDb.property.findMany({
+      where: { managerClerkId: clerkId },
+      include: { location: true },
+    });
+
+    const propertiesWithFormattedLocation = await Promise.all(
+      properties.map(async (property) => {
+        const coordinates: { coordinates: string }[] =
+          await prismaDb.$queryRaw`SELECT ST_asText(coordinates) as coordinates from "Location" where id = ${property.location.id}`;
+
+        const geoJSON: any = wktToGeoJSON(coordinates[0]?.coordinates || "");
+        const longitude = geoJSON.coordinates[0];
+        const latitude = geoJSON.coordinates[1];
+
+        return {
+          ...property,
+          location: {
+            ...property.location,
+            coordinates: {
+              longitude,
+              latitude,
+            },
+          },
+        };
+      })
+    );
+
+    res.json(propertiesWithFormattedLocation);
+  } catch (error) {
+    console.error("Error getting manager properties:", error);
+    res
+      .status(500)
+      .json({ success: false, error: "Failed to get manager properties" });
+    return;
+  }
+};

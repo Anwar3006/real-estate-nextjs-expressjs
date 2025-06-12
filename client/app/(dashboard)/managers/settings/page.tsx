@@ -16,7 +16,7 @@ const ManagerSettingsPage = () => {
     userId,
   } = useAuthenticatedUser();
 
-  const [updateTenant] = useUpdateManagerMutation();
+  const [updateManager] = useUpdateManagerMutation();
 
   // Show loading while Clerk is initializing
   if (!isLoaded || !isUserLoaded) {
@@ -53,7 +53,7 @@ const ManagerSettingsPage = () => {
 
   const handleSubmit = async (data: typeof initialData) => {
     try {
-      await updateTenant({
+      await updateManager({
         clerkId: userData?.clerkUserId,
         token: token,
         ...data,

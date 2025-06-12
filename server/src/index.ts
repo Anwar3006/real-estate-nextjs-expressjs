@@ -9,6 +9,9 @@ import bodyParser from "body-parser";
 import tenantsRouter from "./routes/tenants.routes";
 import managersRouter from "./routes/managers.routes";
 import authMiddleware from "./middleware/authMiddleware";
+import propertiesRouter from "./routes/properties.routes";
+import leasesRouter from "./routes/leases.routes";
+import applicationsRouter from "./routes/applications.routes";
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -28,6 +31,9 @@ app.get("/health", (req, res) => {
 // Register user router
 app.use("/api/tenants", authMiddleware(["tenant"]), tenantsRouter);
 app.use("/api/managers", authMiddleware(["manager"]), managersRouter);
+app.use("/api/properties", propertiesRouter);
+app.use("/api/leases", leasesRouter);
+app.use("/api/applications", applicationsRouter);
 
 /* SERVER */
 const PORT = process.env.PORT || 4000;
