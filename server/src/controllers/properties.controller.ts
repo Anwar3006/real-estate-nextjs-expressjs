@@ -213,7 +213,7 @@ export const getProperties = async (req: Request, res: Response) => {
       whereConditions.push(
         Prisma.sql`ST_DWithin(
             l.coordinates::geometry,
-            ST_SetSRID(ST_MakePoint(${long}, ${lat}, 4326)),
+            ST_SetSRID(ST_MakePoint(${long}, ${lat}), 4326),
             ${degrees}
         )`
       );
@@ -229,10 +229,10 @@ export const getProperties = async (req: Request, res: Response) => {
             'postalCode', l."postalCode",
             'coordinates', json_build_object(
                 'longitude', ST_X(l."coordinates"::geometry),
-                'latitude', ST_Y(l."coordinates"::geometry),
+                'latitude', ST_Y(l."coordinates"::geometry)
             )
         ) as location
-        FROM "property" p
+        FROM "Property" p
         JOIN "Location" l ON p."locationId" = l.id
         ${
           whereConditions.length > 0
@@ -243,7 +243,7 @@ export const getProperties = async (req: Request, res: Response) => {
 
     const properties = await prismaDb.$queryRaw(completeQuery);
 
-    res.json(properties);
+    res.json({ success: true, data: properties });
   } catch (error) {
     console.error("Error getting properties:", error);
     res.status(500).json({ success: false, error: "Failed to get properties" });
